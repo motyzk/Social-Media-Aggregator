@@ -1,0 +1,11 @@
+cycler==0.10.0
+facebook-sdk==1.0.0
+matplotlib==1.5.1
+numpy==1.11.0
+pandas==0.18.1
+pymongo==3.2.2
+pyparsing==2.1.4
+python-dateutil==2.5.3
+pytz==2016.4
+requests==2.10.0
+six==1.10.0

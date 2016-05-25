@@ -1,6 +1,4 @@
-from pprint import pprint
 import pymongo
-import get_object
 
 client = pymongo.MongoClient()
 
@@ -13,6 +11,6 @@ pages = db.get_collection('pages')
 pages.create_index('id', unique=True)
 
 posts = db.get_collection('posts')
-# pages = db['pages']
+# posts = db['posts']
 
 posts.create_index('id', unique=True)

@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import pages_and_posts
 from pymongo import DESCENDING
 from pprint import pprint
